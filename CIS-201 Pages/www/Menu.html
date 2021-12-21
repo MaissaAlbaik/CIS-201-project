@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="../src/CSS/MenuStyle.css">
+	<script src="../src/JavaScript/javascript.js"></script>
+</head>
+
+<body>
+	<a class="Homebtn" href="home.html">Home</a>
+	<img id="Bag" alt="ShoppingBag" src="../src/imgs/EmptyBag2.png"/>
+	<div class="Menu">
+		<!--Menu page (upper part)-->
+		<script>PrintHeader();</script>
+		
+	<!--Menu page (content of the page)-->
+		<div class="MenuContent">
+				<table>
+					<tr class="GenereNames">
+						<td>
+							<h3>-Hot Drinks-</h3>
+							
+						</td>
+						<td>
+							
+							<h3>-Cold Drinks-</h3>
+							
+						</td>
+						<td>
+							
+							<h3>-Dessert-</h3>
+						</td>
+					 </tr>
+						
+						<tr class="GenreNames">
+							<td>
+								<p>Stay warm and drink coffee</p>
+							</td>
+							
+							<td>
+								<p>iced coffee Cool down</p>
+							</td>
+							
+							<td>
+								<p>Save room for dessert</p>
+							</td>
+						</tr>
+					</table>
+					
+					<!--Clickable imaages to choose genre-->
+					<div class="container">
+						<img onClick="PrintHeader1();printArray();" alt="Americano" src="../src/imgs/Americano.jpeg"/>
+						<img onClick="PrintHeader2();printArray2();" alt="IcedLatte" src="../src/imgs/IcedLatte.jpeg"/>
+						<img onClick="PrintHeader3();printArray3();"id="Apple pie" alt="dessert image" src="../src/imgs/ApplePie.jpeg"/>
+					 </div>
+
+					
+
+			</div>
+	</div>
+	
+	
+</body>
+</html>

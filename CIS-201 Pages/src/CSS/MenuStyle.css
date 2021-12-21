@@ -1,0 +1,146 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:"Bradley Hand ITC";
+}
+/*Adding shopping bag*/
+#Bag{
+	width:4%;
+	margin-left:88%;
+	float:left;
+}
+/*Menu text*/
+.MenuTop h1{
+	font-size:3vw;
+	margin-right:50%;
+	padding-bottom:2%;
+}
+
+/*Menu text background*/
+.MenuTop{
+	text-align:center;
+	background-color:#CCB28F;
+	padding-top:5%;
+	color:white;
+}
+
+
+/* changing size of menu images*/
+table{
+	padding-left:20%;
+	margin-top:5%;
+	background-color:#523A28;
+}
+/* changing size of menu images*/
+td{
+width:15%;
+
+}
+/*menu images width*/
+img{
+width:20vw;
+ 
+}
+/* name and prices of orders*/
+h2,p{
+	font-size:2vw;
+	color:white;
+}
+/*Add button*/
+button{
+	width:4vw;
+	font-size:1vw;
+}
+button:hover{
+	background-color:#719671;
+}
+
+
+/*hr line*/
+ hr{
+	 border-top: 2px solid black;
+}
+/*Genre table*/
+.MenuContent table{
+	padding:0;
+	margin:0;
+	background-color:white;
+	margin-right:5%;
+}
+
+
+/*Images for user to choose menu genre*/
+.MenuContent img{
+	padding:0;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-right:4%;
+	width:17%;
+	margin-left:10%;
+	cursor:pointer;}
+	
+/*Adding width so the quote can be in one line*/
+.MenuContent td{
+	width:15%;
+	
+}
+
+
+/*changing quote size and position*/
+.MenuContent p{
+	text-align:center;
+	width:auto;
+	padding-left:20%;
+	font-size:2vw;
+	color:black;		
+}
+
+/*Changing font of genre names and position*/
+.MenuContent h3{
+	text-align:center;
+	padding-left: 20%;
+	padding-top:20%;
+	font-size:2vw;
+}
+
+/*background color for genre images*/
+.container {
+	margin-top:5%;
+	background-color: #f1f1f1;
+}
+
+/* Shopping bag number*/
+#OrderNum{
+	float:right;
+	display:inline;
+	font-size:1.5vw;
+	margin-right:5%;
+	color:black;
+	
+}
+
+/* Back link */
+.Back{
+	float:left;
+	cursor:pointer;
+	color:black;
+	background-color:#719671;
+	border-radius:40%;
+	border: 2px solid black;
+	margin:1%;
+
+}
+
+/*Return Home link */
+.Homebtn{
+
+	margin:1%;
+	float:left;
+	border: 2px solid black;
+	background-color:#719671;
+	border-radius:40%;
+	text-decoration:none;
+	font-size:2vw;
+	color:black;
+}
+

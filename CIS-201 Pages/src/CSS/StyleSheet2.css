@@ -1,0 +1,311 @@
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"Bradley Hand ITC";
+}
+
+/*positioning the three line icon*/
+.openbtn {
+	position: fixed;
+	margin-left:2%;
+	margin-top:1%;
+	color:#212121;
+	cursor: pointer;
+	font-size:2vw;
+}
+
+
+/* coffee bean image*/
+#BeanBag{
+	float:right;
+	margin-top:10%;
+	width:30vw;
+}
+
+
+/*increasing home page area*/
+.home{
+	margin-bottom:40%;
+}
+
+
+/* Panda Cafe*/
+.home h3{
+	
+	text-align:center;
+	font-size:5vw;
+	color:#523A28;
+	font-family:"Castellar";
+}
+
+
+/* Quote*/
+.home p{
+	text-align:center;
+	font-size:2vw;
+	padding-top:1%;
+	color:#523A28;		
+}
+
+
+/* Menu button*/
+#b1{
+	text-decoration: none;
+	text-align:center;
+	font-size:2vw;
+	margin-left:42%;
+	color:#523A28;
+	background-color:#CCB28F;
+	border-radius:20%;
+	padding:0% 5% 0% 5%;
+	
+}
+/*home (coffee name, quote and menu button)*/
+.HomeContent{
+	margin-left:10%;
+	margin-right:10%;
+	padding-top:10%;
+}
+
+
+/*Positioning the link pages*/
+.NavContent a{
+	margin-left:20%;
+	text-decoration: none;
+	display:block;
+	font-size:2.25vw;
+	color:#F8F0E3;
+	padding-top:15%;
+}
+
+/*hover over the links*/
+.Navigation a:hover , .footer a:hover{
+    color:#719671;
+}
+
+/* Changes the font color when clicked by the user*/
+.Navigation a:active {
+    color:#523A28;
+}
+
+/* Navigation bar box*/
+.Navigation{
+	 border: 2px solid black;
+	 height: 100%;
+	 position: fixed;
+	 overflow: auto;
+	 width:15vw;
+	 background-color:#212121;
+	 display:none;	 
+}
+
+/* Logo image*/
+#Logo{
+	
+	border-radius:70%;
+	width:75%;
+	padding-left:10%;
+	margin-top:20%;
+}
+
+/*X button to leave the navigation bar*/
+ .Xbtn{
+	text-decoration: none;
+	color:#F8F0E3;
+	position: absolute;
+	font-size: 2.5vw;
+	margin-left: 70%;
+	cursor: pointer;
+}
+
+
+
+
+
+/*hr line*/
+.AboutMe hr, .Contact hr{
+	 border-top: 2px solid black;
+}
+
+
+
+
+/*AboutMe page styling*/
+/*AboutMe text*/
+.AboutMeTop h1{
+	font-size:3vw;
+	margin-right:50%;
+	padding-bottom:2%;
+}
+
+/*AboutMe text background*/
+.AboutMeTop{
+	text-align:center;
+	background-color:#CCB28F;
+	padding-top:5%;
+	color: white;
+}
+/*Editing margin and padding of aboutMe*/
+.AboutMe h2{
+	width:40%;
+	padding:0% 5% 2% 5%;	
+}
+
+/*Changing size for description about cafe*/
+.AboutMe p{
+	width:40%;
+	font-size:1.5vw;
+	padding-top:0%;
+	padding-bottom:5%;
+	padding:0% 5% 0% 5%;
+
+}
+
+/*Changing size for description about me*/
+.AboutMe h2{
+	font-size:2vw;
+	
+}
+
+/*Images in Aboutme*/
+.AboutMe img{
+float:right;
+margin-top:2%;
+margin-bottom:2%;
+margin-right:4%;
+width:13.33%;
+border-radius:20%;
+
+}
+/* My favourite coffee text*/
+.AboutMe h3{
+	font-size:1.5vw;
+	padding-left:65%; 
+	padding-top:2%;
+}
+
+/*Adding margin to have space above and below the text*/
+.AboutMeContent{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+
+
+
+
+
+
+
+/*Contact page styling */
+/*Contact text*/
+.ContactTop h1{
+	font-size:3vw;
+	margin-right:50%;
+	padding-bottom:2%;
+}
+
+/*Contact page text background*/
+.ContactTop{
+	text-align:center;
+	background-color:#CCB28F;
+	padding-top:5%;
+	color: white;
+}
+
+/*Contact text area*/
+.Contact textarea {
+	width: 30%;
+	height:0;
+	padding-bottom:10%;
+	overflow: hidden;  
+	background-color: #f8f8f8;
+	resize: none;
+}
+/*Positioning the form*/
+.ContactContent{
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:0%;
+	padding:0%;
+	padding-top:0%;
+	
+}
+/*Changing font of form headings*/
+.ContactContent h3{
+	font-size:1.5vw;
+	font-family:"Times New Roman";
+	padding-bottom:3%;
+}
+/*Editing phone,name and email input*/
+#Name,#Phone, #email{
+	background-color:#f8f8f8;
+	width:20vw;
+	height:0%;
+	padding:0% 0% 4% 10%;
+	margin-top:3%;
+	margin-bottom:10%;
+}
+/*submit button*/
+#submit{
+	background-color:#f8f8f8;
+	width:6vw;
+	margin-top:1%;
+	padding:0.25%;
+	border-radius:20%;
+}
+/* Panda image in contact page*/
+.Contact img{
+	float:right;
+	margin-bottom:0%;
+	margin-top:2%;
+	width:50vw;
+	border-radius:20%;
+	
+}
+
+
+
+
+/* Editing footer in contact page*/
+
+.footer{
+	margin-top:15%;
+	width:100%;
+	background-color:#523A28;
+	color:white;
+	padding-bottom:0%;	
+}
+/*Opening time*/
+.footer h2{
+	font-size:2vw;
+	padding:3% 3% 0% 3%;
+	
+}
+/*Time*/
+.footer h3{
+	font-size:1.5vw;
+	padding:1% 3% 5% 3%;
+}
+
+/* Panda Cafe in footer*/
+.footer h1{
+	
+	text-align:center;
+	font-size:3vw;
+	font-family:"Castellar";
+	background-color:#CCB28F;
+	
+}
+
+/*Top link*/
+.footer a{
+	color:white;
+	font-size:2vw;
+	float:right;
+	text-decoration:none;
+	padding:3%;
+
+
+}
