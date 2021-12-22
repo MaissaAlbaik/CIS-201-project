@@ -143,4 +143,11 @@ button:hover{
 	font-size:2vw;
 	color:black;
 }
+/*Home and Back button hover affect*/
+.Back:hover{
+	background-color:#719671;
+}
 
+.Homebtn:hover{
+	background-color:#719671;
+}
