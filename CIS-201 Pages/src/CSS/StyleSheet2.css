@@ -4,6 +4,12 @@
 	margin:0;
 	font-family:"Bradley Hand ITC";
 }
+/*Adding gold shadow image*/
+body{
+	background-image: url("../imgs/FadedBrown.jpeg");
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+		  }
 
 /*positioning the three line icon*/
 .openbtn {
